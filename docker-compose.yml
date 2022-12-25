@@ -1,7 +1,7 @@
 version: '3.2'
 services:
   prometheus:
-    image: prom/prometheus:latest
+    image: custom_prometheus_image
     container_name: prometheus
     ports:
     - 9090:9090
