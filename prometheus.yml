@@ -10,4 +10,4 @@ scrape_configs:
       - targets: ['redis-exporter:9121']
   - job_name: rabbitmq
     static_configs:
-      - targets: ['myrabbitmq:9100']
+      - targets: ['rabbitmq_01:9100']
